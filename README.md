@@ -8,11 +8,21 @@ Time series analysis is a powerful tool for forecasting, and SARIMAX extends ARI
 
 ## 🛠️ Techniques Used
 
-- Time series decomposition
-- Stationarity testing (ADF Test)
-- Seasonal differencing
-- SARIMAX modeling (using `statsmodels`)
-- Forecast evaluation (MAE, RMSE)
+- **Autocorrelation and Partial Autocorrelation analysis (ACF & PACF)**  
+  Identified significant lags in the time series data to guide SARIMAX parameter selection.
+
+- **Stationarity testing using Augmented Dickey-Fuller (ADF) test**  
+  Checked whether the time series is stationary, and applied differencing where necessary.
+
+- **SARIMAX modeling using `statsmodels`**  
+  Implemented a Seasonal ARIMA model that accounts for both seasonal and non-seasonal trends.
+
+- **Train-test split for time series validation**  
+  Divided the dataset chronologically to evaluate model performance on future unseen data.
+
+- **Forecast evaluation using error metrics (e.g., MAE, RMSE)**  
+  Assessed prediction accuracy using standard regression error metrics.
+
 
 ## 🔍 Results
 
