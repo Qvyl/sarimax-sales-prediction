@@ -16,7 +16,7 @@ Time series analysis is a powerful tool for forecasting, and SARIMAX extends ARI
 
 ## 🔍 Results
 
-The model was able to capture both trend and seasonality in the sales data. Evaluation metrics showed that the SARIMAX model outperformed simpler baselines.
+The forecast indicates continued seasonal behavior and an upward trend in transactions. Confidence intervals widen into the future, reflecting increasing uncertainty in long-term predictions.
 
 ![forecast-plot](path/to/your/forecast-plot.png)
 
