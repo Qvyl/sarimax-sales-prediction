@@ -34,9 +34,10 @@ The forecast indicates continued seasonal behavior and an upward trend in transa
 
 - pandas
 - numpy
-- matplotlib
+- plotly
+- seaborn
 - statsmodels
-- seaborn (optional)
+- sklearn
 
 Install with:
 
