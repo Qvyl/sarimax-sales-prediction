@@ -28,7 +28,7 @@ Time series analysis is a powerful tool for forecasting, and SARIMAX extends ARI
 
 The forecast indicates continued seasonal behavior and an upward trend in transactions. Confidence intervals widen into the future, reflecting increasing uncertainty in long-term predictions.
 
-![forecast-plot](path/to/your/forecast-plot.png)
+![forecast-plot](Plotly Graphs/Results Graph.png)
 
 ## 📦 Requirements
 
